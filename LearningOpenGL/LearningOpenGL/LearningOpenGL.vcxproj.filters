@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\library">
+      <UniqueIdentifier>{27fcb860-8a21-446a-bfe9-2b952b529c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\library\headers">
+      <UniqueIdentifier>{92998fba-03b9-42ed-893d-0e3adb0f22fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="library\texture_manager.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\box_geometry.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\camera.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\geometry.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\shader.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library\box_geometry.h">
+      <Filter>Source Files\library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="library\camera.h">
+      <Filter>Source Files\library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="library\geometry.h">
+      <Filter>Source Files\library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="library\shader.h">
+      <Filter>Source Files\library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="library\texture_manager.h">
+      <Filter>Source Files\library\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
